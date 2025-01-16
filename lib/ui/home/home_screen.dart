@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_template/widgets/custom_button.dart';
 
 import '../../utils/app_colors.dart';
 
@@ -16,7 +17,8 @@ class HomeScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Hello')
+                Text('Hello'),
+                CustomButton(onPress: (){}, title: 'title')
               ],
             ),
           ),
